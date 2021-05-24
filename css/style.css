@@ -1,0 +1,82 @@
+#popup {
+  background-color: #ccc;
+  width: 30px;
+  height: 120px;
+  float: left;
+  position: sticky;
+  margin-top: 100px;
+  top: 70px;
+  text-align: center;
+  border-radius: 10px;
+  border: black solid 1px;
+}
+
+.item-a {
+  grid-area: itema;
+}
+.item-b {
+  grid-area: itemb;
+}
+.item-c {
+  grid-area: itemc;
+}
+.item-d {
+  grid-area: itemd;
+}
+.item-e {
+  grid-area: iteme;
+}
+.item-f {
+  grid-area: itemf;
+}
+.item-g {
+  grid-area: itemg;
+}
+.item-h {
+  grid-area: itemh;
+}
+.item-i {
+  grid-area: itemi;
+}
+.item-j {
+  grid-area: itemj;
+}
+.item-k {
+  grid-area: itemk;
+}
+.item-l {
+  grid-area: iteml;
+}
+
+#grid-container {
+  text-align: center;
+  display: grid;
+  grid-gap: 20px;
+  grid-row-gap: 20px;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+  grid-template-areas:
+    "itema itemb itemc itemd iteme"
+    "itemf itemg itemh itemi itemi"
+    "itemj itemk iteml itemi itemi";
+}
+
+.size-img {
+  width: 100%;
+}
+
+.item-i img {
+  width: 100%;
+}
+
+#img-adjust {
+  width: 150px;
+}
+
+#icon-adjust {
+  font-size: 25px;
+}
+
+a:hover {
+  text-decoration: none;
+}
